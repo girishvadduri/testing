@@ -1,0 +1,113 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centers vertically */
+}
+
+/* Container Styles */
+.container {
+    max-width: 600px;
+    margin: 50px auto; /* Center container horizontally with top/bottom margin */
+    text-align: center;
+    background: white;
+    padding: 30px; /* Increased padding for a spacious feel */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Field Styles */
+input {
+    width: 70%; /* Adjusted width for better aesthetics */
+    padding: 10px; /* Increased padding for comfort */
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px; /* Larger font size for readability */
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Consistent font size */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #218838;
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+/* Meal Results Section */
+.meal-results {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Individual Meal Card Styles */
+.meal {
+    background: #ffffff; /* White background for meal cards */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px; /* Increased padding for a comfortable layout */
+    width: 150px; /* Fixed width for meal cards */
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.3s; /* Added box shadow transition */
+}
+
+.meal:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Shadow effect on hover */
+}
+
+/* Meal Image Styles */
+.meal img {
+    max-width: 100%;
+    border-radius: 4px;
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Link Styles */
+.recipe-link,
+.preparation-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.recipe-link {
+    color: #007bff; /* Blue color for recipe links */
+    font-weight: bold; /* Bold for emphasis */
+}
+
+.recipe-link:hover {
+    text-decoration: underline;
+}
+
+.preparation-link {
+    color: #dc3545; /* Red color for preparation links */
+    font-weight: bold; /* Bold for emphasis */
+}
+
+.preparation-link:hover {
+    text-decoration: underline;
+}
+
+/* Paragraph and Heading Styles */
+p, h1 {
+    text-align: center;
+    margin: 10px 0; /* Consistent margins for better spacing */
+}
